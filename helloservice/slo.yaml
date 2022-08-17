@@ -17,10 +17,10 @@ objectives:
       - criteria:
           - "<=+100%"
           - ">=-80%"
-  - sli: go_routines
+  - sli: failing_request
     pass:
       - criteria:
-          - "<=100"
+          - "<=1"
 total_score:
   pass: "90%"
   warning: "75%"
